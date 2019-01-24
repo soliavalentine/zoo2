@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="zoo.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="zoo.js"></script>
+</head>
+<body>
+<H1>
+    Zoo
+</H1>
+<div id="create">
+    <p>
+        Create an Animal:
+    </p>
+Name:
+<input type="text" id="Name">
+<select id="Animal">
+<option value="0">Select Animal</option>
+<option value="1">Tiger</option>
+<option value="2">Bear</option>
+<option value="3">Unicorn</option>
+<option value="4">Giraffe</option>
+<option value="5">Bee</option>
+</select>
+
+<button onclick="startGame()" id="button1" class="w3-container w3-white
+w3-border w3-border-white w3-round">Add Animal</button>
+</div>
+<div id="newAnimal"></div>
+<p>
+    Delete an Animal:
+</p>
+<div id="delete">
+    Name of Animal You Wish to Delete:
+<input type="text" id="Delete1">
+<button onclick="deleteAnimal()" id="Delete2" class="w3-container w3-white
+w3-border w3-border-white w3-round">Delete Animal</button>
+</div>
+<p>
+    Feed the Animals:
+    <br>
+    <input type="text" id="feed">
+    <button id="button2" onclick="feedAnimal()" class="w3-container w3-white
+w3-border w3-border-white w3-round">Feed Animal</button>
+
+</p>
+<div id = "all">
+
+</div>
+<button onclick="seeAnimal()" id="button" class="w3-container w3-white
+w3-border w3-border-white w3-round">See My Animals!</button>
+<div id="barn"></div>
+</body>
+</html>

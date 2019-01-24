@@ -1,0 +1,26 @@
+H1{
+    text-align: center;
+}
+p{
+    font-size:18px;                                        ;
+}
+#button1{
+    position: relative;
+    bottom: 16px;
+}
+#Delete2{
+    position: relative;
+    bottom: 16px;
+}
+
+#button{
+    font-size:18px;
+}
+body{
+    text-align: center;
+    background-color: darkseagreen;
+}
+#button2{
+    position: relative;
+    bottom: 16px;
+}
